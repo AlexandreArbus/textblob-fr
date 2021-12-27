@@ -8,6 +8,7 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 -->
 <sentiment language="fr" version="1.1" author="Tom De Smedt, Walter Daelemans, fabelier.org" license="PDDL">
 <word form="abandonné" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.9" />
+<word form="socialos" pos="JJ" polarity="-0.90" subjectivity="0.40" intensity="1.0" confidence="0.9" />
 <word form="abandonnée" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.8" />
 <word form="abandonnées" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.8" />
 <word form="abandonnés" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.8" />
