@@ -7,8 +7,20 @@ The part-of-speech tags (pos) use the Penn Treebank II tag set: NN = noun, JJ = 
 For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 -->
 <sentiment language="fr" version="1.1" author="Tom De Smedt, Walter Daelemans, fabelier.org" license="PDDL">
+<word form="rien" pos="RB" polarity="-0.20" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="peuple" pos="NN" polarity="0.70" subjectivity="0.50" intensity="1.0" confidence="1.0" />
+<word form="honte" pos="NN" polarity="-0.50" subjectivity="0.80" intensity="1.0" confidence="1.0" />
+<word form="perdre" pos="VB" polarity="-0.30" subjectivity="0.30" intensity="1.0" confidence="1.0" />
+<word form="mort" pos="NN" polarity="-0.50" subjectivity="0.50" intensity="1.0" confidence="1.0" />
+<word form="victoire" pos="NN" polarity="0.30" subjectivity="0.30" intensity="1.0" confidence="1.0" />
+<word form="peur" pos="NN" polarity="-0.20" subjectivity="0.80" intensity="1.0" confidence="1.0" />
+<word form="victimes" pos="NNS" polarity="-0.20" subjectivity="0.50" intensity="1.0" confidence="1.0" />
+<word form="raciste" pos="JJ" polarity="-0.50" subjectivity="0.90" intensity="1.0" confidence="1.0" />
+<word form="haine" pos="NN" polarity="-0.50" subjectivity="0.90" intensity="1.0" confidence="1.0" />
+<word form="faute" pos="NN" polarity="-0.20" subjectivity="0.60" intensity="1.0" confidence="1.0" />
+<word form="gueule" pos="NN" polarity="-0.70" subjectivity="0.90" intensity="1.0" confidence="1.0" />
+<word form="guerre" pos="NN" polarity="-0.50" subjectivity="0.50" intensity="1.0" confidence="1.0" />
 <word form="abandonné" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.9" />
-<word form="socialos" pos="JJ" polarity="-0.90" subjectivity="0.40" intensity="1.0" confidence="0.9" />
 <word form="abandonnée" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.8" />
 <word form="abandonnées" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.8" />
 <word form="abandonnés" pos="JJ" polarity="-0.30" subjectivity="0.40" intensity="1.0" confidence="0.8" />
@@ -541,8 +553,8 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="autorisés" pos="JJ" polarity="0.05" subjectivity="0.20" intensity="1.0" confidence="0.7" />
 <word form="autoritaire" pos="JJ" polarity="-0.11" subjectivity="-0.25" intensity="1.0" confidence="0.7" />
 <word form="autoritaires" pos="JJ" polarity="-0.11" subjectivity="-0.25" intensity="1.0" confidence="0.7" />
-<word form="autre" pos="JJ" polarity="-0.10" subjectivity="0.00" intensity="1.0" confidence="1.0" />
-<word form="autres" pos="JJ" polarity="-0.10" subjectivity="0.00" intensity="1.0" confidence="0.9" />
+<word form="autre" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
+<word form="autres" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
 <word form="avancé" pos="JJ" polarity="0.30" subjectivity="0.30" intensity="1.0" confidence="0.9" />
 <word form="avancée" pos="JJ" polarity="0.30" subjectivity="0.30" intensity="1.0" confidence="0.8" />
 <word form="avancées" pos="JJ" polarity="0.30" subjectivity="0.30" intensity="1.0" confidence="0.8" />
@@ -625,8 +637,8 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="bel" pos="JJ" polarity="0.40" subjectivity="0.40" intensity="1.0" confidence="0.9" />
 <word form="belge" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="belges" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
-<word form="belle" pos="JJ" polarity="0.80" subjectivity="0.80" intensity="1.0" confidence="0.9" />
-<word form="belles" pos="JJ" polarity="0.80" subjectivity="0.80" intensity="1.0" confidence="0.9" />
+<word form="belle" pos="JJ" polarity="0.00" subjectivity="0.80" intensity="1.0" confidence="1.0" />
+<word form="belles" pos="JJ" polarity="0.00" subjectivity="0.80" intensity="1.0" confidence="1.0" />
 <word form="belligérant" pos="JJ" polarity="-0.10" subjectivity="-0.20" intensity="1.0" confidence="0.7" />
 <word form="belligérante" pos="JJ" polarity="-0.10" subjectivity="-0.20" intensity="1.0" confidence="0.7" />
 <word form="belligérantes" pos="JJ" polarity="-0.10" subjectivity="-0.20" intensity="1.0" confidence="0.7" />
@@ -696,11 +708,11 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="blâmable" pos="JJ" polarity="-0.12" subjectivity="-0.25" intensity="1.0" confidence="0.7" />
 <word form="blême" pos="JJ" polarity="-0.40" subjectivity="0.40" intensity="1.0" confidence="0.9" />
 <word form="blêmes" pos="JJ" polarity="-0.40" subjectivity="0.40" intensity="1.0" confidence="0.8" />
-<word form="bon" pos="JJ" polarity="0.70" subjectivity="0.70" intensity="1.0" confidence="1.0" />
+<word form="bon" pos="JJ" polarity="0.10" subjectivity="0.70" intensity="1.0" confidence="1.0" />
 <word form="bonheur" pos="NN" polarity="0.50" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="bonhomme" pos="JJ" polarity="0.35" subjectivity="0.70" intensity="1.0" confidence="0.7" />
 <word form="bonhommes" pos="JJ" polarity="0.35" subjectivity="0.70" intensity="1.0" confidence="0.7" />
-<word form="bonne" pos="JJ" polarity="0.70" subjectivity="0.70" intensity="1.0" confidence="0.9" />
+<word form="bonne" pos="JJ" polarity="0.30" subjectivity="0.70" intensity="1.0" confidence="1.0" />
 <word form="bonnes" pos="JJ" polarity="0.70" subjectivity="0.70" intensity="1.0" confidence="0.9" />
 <word form="bons" pos="JJ" polarity="0.70" subjectivity="0.70" intensity="1.0" confidence="0.9" />
 <word form="boudiné" pos="JJ" polarity="-0.15" subjectivity="-0.30" intensity="1.0" confidence="0.7" />
@@ -871,8 +883,8 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="certain" pos="JJ" polarity="0.29" subjectivity="0.15" intensity="1.0" confidence="1.0" />
 <word form="certaine" pos="JJ" polarity="0.29" subjectivity="0.15" intensity="1.0" confidence="0.9" />
 <word form="certainement" pos="RB" polarity="0.10" subjectivity="0.25" intensity="2.0" confidence="0.9" />
-<word form="certaines" pos="JJ" polarity="0.29" subjectivity="0.15" intensity="1.0" confidence="0.9" />
-<word form="certains" pos="JJ" polarity="0.29" subjectivity="0.15" intensity="1.0" confidence="0.9" />
+<word form="certaines" pos="JJ" polarity="0.00" subjectivity="0.15" intensity="1.0" confidence="1.0" />
+<word form="certains" pos="JJ" polarity="0.00" subjectivity="0.15" intensity="1.0" confidence="1.0" />
 <word form="chaleureuse" pos="JJ" polarity="0.30" subjectivity="0.50" intensity="1.0" confidence="0.8" />
 <word form="chaleureuses" pos="JJ" polarity="0.30" subjectivity="0.50" intensity="1.0" confidence="0.8" />
 <word form="chaleureux" pos="JJ" polarity="0.30" subjectivity="0.50" intensity="1.0" confidence="0.9" />
@@ -1528,9 +1540,9 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="dressée" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="dressées" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="dressés" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
-<word form="droit" pos="JJ" polarity="0.17" subjectivity="0.00" intensity="1.0" confidence="1.0" />
-<word form="droite" pos="JJ" polarity="0.17" subjectivity="0.00" intensity="1.0" confidence="0.9" />
-<word form="droites" pos="JJ" polarity="0.17" subjectivity="0.00" intensity="1.0" confidence="0.9" />
+<word form="droite" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
+<word form="droites" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
+<word form="droit" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
 <word form="droits" pos="JJ" polarity="0.17" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="dru" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="drue" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
@@ -2168,7 +2180,7 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="fortunés" pos="JJ" polarity="0.23" subjectivity="0.45" intensity="1.0" confidence="0.7" />
 <word form="fossile" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.7" />
 <word form="fossiles" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.7" />
-<word form="fou" pos="JJ" polarity="-0.01" subjectivity="0.90" intensity="1.0" confidence="1.0" />
+<word form="fou" pos="JJ" polarity="-0.3" subjectivity="0.90" intensity="1.0" confidence="1.0" />
 <word form="foudroyant" pos="JJ" polarity="0.02" subjectivity="0.03" intensity="1.0" confidence="0.7" />
 <word form="foudroyante" pos="JJ" polarity="0.02" subjectivity="0.03" intensity="1.0" confidence="0.7" />
 <word form="foudroyantes" pos="JJ" polarity="0.02" subjectivity="0.03" intensity="1.0" confidence="0.7" />
@@ -2198,9 +2210,9 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="franchouillard" pos="JJ" polarity="0.10" subjectivity="0.20" intensity="1.0" confidence="0.7" />
 <word form="franchouillarde" pos="JJ" polarity="0.10" subjectivity="0.20" intensity="1.0" confidence="0.7" />
 <word form="francs" pos="JJ" polarity="0.20" subjectivity="0.20" intensity="1.0" confidence="0.8" />
-<word form="français" pos="JJ" polarity="0.20" subjectivity="0.00" intensity="1.0" confidence="1.0" />
-<word form="française" pos="JJ" polarity="0.20" subjectivity="0.00" intensity="1.0" confidence="0.9" />
-<word form="françaises" pos="JJ" polarity="0.20" subjectivity="0.00" intensity="1.0" confidence="0.9" />
+<word form="français" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
+<word form="française" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
+<word form="françaises" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
 <word form="fraternel" pos="JJ" polarity="0.10" subjectivity="0.30" intensity="1.0" confidence="0.9" />
 <word form="fraternelle" pos="JJ" polarity="0.10" subjectivity="0.30" intensity="1.0" confidence="0.8" />
 <word form="fraternelles" pos="JJ" polarity="0.10" subjectivity="0.30" intensity="1.0" confidence="0.8" />
@@ -2299,8 +2311,8 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="galopante" pos="JJ" polarity="0.05" subjectivity="0.10" intensity="1.0" confidence="0.7" />
 <word form="galopantes" pos="JJ" polarity="0.05" subjectivity="0.10" intensity="1.0" confidence="0.7" />
 <word form="galopants" pos="JJ" polarity="0.05" subjectivity="0.10" intensity="1.0" confidence="0.7" />
-<word form="gauche" pos="JJ" polarity="-0.16" subjectivity="0.20" intensity="1.0" confidence="1.0" />
-<word form="gauches" pos="JJ" polarity="-0.16" subjectivity="0.20" intensity="1.0" confidence="0.9" />
+<word form="gauche" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
+<word form="gauches" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
 <word form="gaulois" pos="JJ" polarity="0.10" subjectivity="0.20" intensity="1.0" confidence="0.7" />
 <word form="gauloise" pos="JJ" polarity="0.10" subjectivity="0.20" intensity="1.0" confidence="0.7" />
 <word form="gauloises" pos="JJ" polarity="0.10" subjectivity="0.20" intensity="1.0" confidence="0.7" />
@@ -2351,9 +2363,9 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="gracieuse" pos="JJ" polarity="0.80" subjectivity="0.85" intensity="1.0" confidence="0.8" />
 <word form="gracieuses" pos="JJ" polarity="0.80" subjectivity="0.85" intensity="1.0" confidence="0.8" />
 <word form="gracieux" pos="JJ" polarity="0.80" subjectivity="0.85" intensity="1.0" confidence="0.9" />
-<word form="grand" pos="JJ" polarity="0.30" subjectivity="0.20" intensity="1.0" confidence="1.0" />
-<word form="grande" pos="JJ" polarity="0.30" subjectivity="0.20" intensity="1.0" confidence="0.9" />
-<word form="grandes" pos="JJ" polarity="0.30" subjectivity="0.20" intensity="1.0" confidence="0.9" />
+<word form="grand" pos="JJ" polarity="0.00" subjectivity="0.20" intensity="1.0" confidence="1.0" />
+<word form="grande" pos="JJ" polarity="0.00" subjectivity="0.20" intensity="1.0" confidence="1.0" />
+<word form="grandes" pos="JJ" polarity="0.00" subjectivity="0.20" intensity="1.0" confidence="1.0" />
 <word form="grandiose" pos="JJ" polarity="0.80" subjectivity="1.00" intensity="1.0" confidence="0.9" />
 <word form="grandioses" pos="JJ" polarity="0.80" subjectivity="1.00" intensity="1.0" confidence="0.8" />
 <word form="grands" pos="JJ" polarity="0.30" subjectivity="0.20" intensity="1.0" confidence="0.9" />
@@ -3020,7 +3032,7 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="jumelée" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.7" />
 <word form="jumelées" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.7" />
 <word form="jumelés" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.7" />
-<word form="juste" pos="JJ" polarity="0.22" subjectivity="0.20" intensity="1.0" confidence="1.0" />
+<word form="juste" pos="JJ" polarity="0.00" subjectivity="0.20" intensity="1.0" confidence="1.0" />
 <word form="justes" pos="JJ" polarity="0.22" subjectivity="0.20" intensity="1.0" confidence="0.9" />
 <word form="l'horreur" pos="NN" polarity="-0.60" subjectivity="0.10" intensity="1.0" confidence="0.9" />
 <word form="laid" pos="JJ" polarity="-0.70" subjectivity="0.60" intensity="1.0" confidence="0.9" />
@@ -3267,7 +3279,7 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="mentale" pos="JJ" polarity="0.20" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="mentales" pos="JJ" polarity="0.20" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="mentaux" pos="JJ" polarity="0.20" subjectivity="0.00" intensity="1.0" confidence="0.8" />
-<word form="merci" pos="UH" polarity="0.30" subjectivity="0.20" intensity="1.0" confidence="0.9" />
+<word form="merci" pos="UH" polarity="-0.10" subjectivity="0.20" intensity="1.0" confidence="1.0" />
 <word form="merde" pos="UH" polarity="-0.70" subjectivity="0.40" intensity="1.0" confidence="0.9" />
 <word form="merveille" pos="NN" polarity="0.40" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="merveilleuse" pos="JJ" polarity="0.90" subjectivity="0.90" intensity="1.0" confidence="0.8" />
@@ -3652,7 +3664,7 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="parisienne" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="parisiennes" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="parisiens" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
-<word form="parti" pos="JJ" polarity="-0.10" subjectivity="0.10" intensity="1.0" confidence="0.9" />
+<word form="parti" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="1.0" />
 <word form="particulier" pos="JJ" polarity="-0.15" subjectivity="0.10" intensity="1.0" confidence="1.0" />
 <word form="particuliers" pos="JJ" polarity="-0.15" subjectivity="0.10" intensity="1.0" confidence="0.9" />
 <word form="particulière" pos="JJ" polarity="-0.15" subjectivity="0.10" intensity="1.0" confidence="0.9" />
@@ -3736,10 +3748,10 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="petiot" pos="JJ" polarity="0.05" subjectivity="0.10" intensity="1.0" confidence="0.7" />
 <word form="petiote" pos="JJ" polarity="0.05" subjectivity="0.10" intensity="1.0" confidence="0.7" />
 <word form="petiots" pos="JJ" polarity="0.05" subjectivity="0.10" intensity="1.0" confidence="0.7" />
-<word form="petit" pos="JJ" polarity="0.10" subjectivity="0.10" intensity="1.0" confidence="1.0" />
-<word form="petite" pos="JJ" polarity="0.10" subjectivity="0.10" intensity="1.0" confidence="0.9" />
-<word form="petites" pos="JJ" polarity="0.10" subjectivity="0.10" intensity="1.0" confidence="0.9" />
-<word form="petits" pos="JJ" polarity="0.10" subjectivity="0.10" intensity="1.0" confidence="0.9" />
+<word form="petit" pos="JJ" polarity="-0.20" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="petite" pos="JJ" polarity="-0.20" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="petites" pos="JJ" polarity="-0.20" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="petits" pos="JJ" polarity="-0.20" subjectivity="0.10" intensity="1.0" confidence="1.0" />
 <word form="peu" pos="JJ" polarity="-0.03" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="peu" pos="RB" polarity="-0.05" subjectivity="0.50" intensity="0.5" confidence="0.9" />
 <word form="phosphorescent" pos="JJ" polarity="0.20" subjectivity="0.40" intensity="1.0" confidence="0.7" />
@@ -3859,7 +3871,7 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="praticables" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.7" />
 <word form="pratique" pos="JJ" polarity="0.20" subjectivity="0.10" intensity="1.0" confidence="0.9" />
 <word form="pratiques" pos="JJ" polarity="0.20" subjectivity="0.10" intensity="1.0" confidence="0.8" />
-<word form="premier" pos="JJ" polarity="0.50" subjectivity="0.20" intensity="1.0" confidence="1.0" />
+<word form="premier" pos="JJ" polarity="0.00" subjectivity="0.20" intensity="1.0" confidence="1.0" />
 <word form="premiers" pos="JJ" polarity="0.50" subjectivity="0.20" intensity="1.0" confidence="0.9" />
 <word form="première" pos="JJ" polarity="0.50" subjectivity="0.20" intensity="1.0" confidence="0.9" />
 <word form="premières" pos="JJ" polarity="0.50" subjectivity="0.20" intensity="1.0" confidence="0.9" />
@@ -4693,10 +4705,10 @@ For French book reviews, the accuracy is 75% (P 0.76, R 0.75, F1 0.75).
 <word form="touchante" pos="JJ" polarity="0.30" subjectivity="0.90" intensity="1.0" confidence="0.8" />
 <word form="touchantes" pos="JJ" polarity="0.30" subjectivity="0.90" intensity="1.0" confidence="0.8" />
 <word form="touchants" pos="JJ" polarity="0.30" subjectivity="0.90" intensity="1.0" confidence="0.8" />
-<word form="tous" pos="JJ" polarity="0.22" subjectivity="0.10" intensity="1.0" confidence="0.9" />
-<word form="tout" pos="JJ" polarity="0.22" subjectivity="0.10" intensity="1.0" confidence="1.0" />
-<word form="toute" pos="JJ" polarity="0.22" subjectivity="0.10" intensity="1.0" confidence="0.9" />
-<word form="toutes" pos="JJ" polarity="0.22" subjectivity="0.10" intensity="1.0" confidence="0.9" />
+<word form="tous" pos="JJ" polarity="0.00" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="tout" pos="JJ" polarity="0.00" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="toute" pos="JJ" polarity="0.00" subjectivity="0.10" intensity="1.0" confidence="1.0" />
+<word form="toutes" pos="JJ" polarity="0.00" subjectivity="0.10" intensity="1.0" confidence="1.0" />
 <word form="traditionnel" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.9" />
 <word form="traditionnelle" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
 <word form="traditionnelles" pos="JJ" polarity="0.00" subjectivity="0.00" intensity="1.0" confidence="0.8" />
